@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE filmoteca [
+    <!ELEMENT filmoteca (pelicula*)>
+    <!ELEMENT pelicula (titulo, anyo, actores)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT actores (actor*)>
+    <!ELEMENT actor (#PCDATA)>
+]>
+
+<filmoteca>
+    <pelicula>
+        <titulo>The man from earth</titulo>
+        <anyo>2007</anyo>
+        <actores>
+            <actor>David Lee Smith</actor>
+            <actor>Annika Peterson</actor>
+        </actores>
+    </pelicula>
+    <pelicula>
+        <titulo>Akira</titulo>
+        <anyo>1988</anyo>
+        <actores/>
+    </pelicula>
+</filmoteca>

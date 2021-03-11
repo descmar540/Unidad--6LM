@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE discos SYSTEM "act2.ejerc1.dtdexterno.dtd">
+
+<discos>
+    <artista>Pocoyó</artista>
+    <album>El disco de Pocoyó</album>
+</discos>

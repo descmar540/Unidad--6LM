@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE correo_electronico [
+    <!ELEMENT correo_electronico (de, para, asunto, contenido)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+]>
+
+<correo_electronico>
+    <de></de>
+    <para></para>
+    <asunto></asunto>
+    <contenido></contenido>
+</correo_electronico>

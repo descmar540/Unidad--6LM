@@ -1,0 +1,5 @@
+<!ELEMENT correo_electronico (de, para, asunto, contenido)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>

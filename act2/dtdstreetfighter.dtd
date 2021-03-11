@@ -1,0 +1,10 @@
+<!ELEMENT personajes (personaje*)>
+<!ELEMENT personaje (nombre, nacionalidad?, altura, peso?, grupo_sanguineo?, datos_personales*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT grupo_sanguineo (#PCDATA)>
+<!ELEMENT datos_personales (aficion*, aversion*)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT aversion (#PCDATA)>
