@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE empleados SYSTEM "ejerc1.dtd">
+
+<empleados total="2">
+    <empleado id="JDU" seccion="sistemas">
+        <nombre>Jesulin</nombre>
+        <apellidos>De Ubrique</apellidos>
+    </empleado>
+    <empleado id="MK" seccion="desarrollo">
+        <nombre>Michael</nombre>
+        <apellidos>Knight</apellidos>
+    </empleado>
+</empleados>

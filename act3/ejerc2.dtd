@@ -1,0 +1,9 @@
+<!ELEMENT ies (modulos)>
+    <!ATTLIST ies nombre CDATA #REQUIRED>
+<!ELEMENT modulos (modulo*)>
+<!ELEMENT modulo (nombre, ciclo*)>
+    <!ATTLIST modulo id ID >
+    <!ATTLIST modulo curso CDATA (1 | 2)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT razon (#PCDATA) #REQUIRED>

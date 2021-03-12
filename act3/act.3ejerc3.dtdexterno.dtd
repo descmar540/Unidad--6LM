@@ -1,0 +1,9 @@
+<!ELEMENT empresa (departamentos*, empleados+)>
+<!ELEMENT departamentos (departamento)>
+<!ELEMENT departamento (nombre)>
+<!ATTLIST departamento id ID #REQUIRED>
+<!ATTLIST departamento ubicacion (planta-0 | planta-1) #REQUIRED>
+<!ELEMENT empleados (empleado)>
+<!ELEMENT empleado (nombre)>
+<!ATTLIST empleado id ID #REQUIRED>
+<!ATTLIST empleado id-departamento IDREF >
