@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE ies SYSTEM "ejerc2.dtd">
+<!DOCTYPE ies [
+    <!ELEMENT ies (modulos)>
+        <!ATTLIST ies nombre CDATA #REQUIRED>
+    <!ELEMENT modulos (modulo*)>
+    <!ELEMENT modulo (nombre, ciclo*)>
+        <!ATTLIST modulo id ID >
+        <!ATTLIST modulo curso CDATA (1 | 2)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ciclo (#PCDATA)>
+]>
 
 <ies nombre="IES Celia Viñas">
  <modulos>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE empresa SYSTEM "ejerc3.dtd">
+<!DOCTYPE empresa [
+    <!ELEMENT empresa (departamentos*, empleados+)>
+    <!ELEMENT departamentos (departamento)*>
+    <!ELEMENT departamento (nombre)>
+        <!ATTLIST departamento id ID #REQUIRED>
+        <!ATTLIST departamento ubicacion (planta-0 | planta-1) #REQUIRED>
+    <!ELEMENT empleados (empleado)>
+    <!ELEMENT empleado (nombre)>
+        <!ATTLIST empleado id ID #REQUIRED>
+        <!ATTLIST empleado id-departamento IDREF >
+]>
 
 
 <empresa>
